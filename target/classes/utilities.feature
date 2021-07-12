@@ -2,7 +2,7 @@ Feature:utilities
 @Position
   Scenario: Position an element relative to another element
     Given user navigates to "https:jqueryui.com"
-    Then user clicks on Position
+    When user clicks on Position
     Then user clicks on the parent element
     And user is able to successfully position the element to related element
 
